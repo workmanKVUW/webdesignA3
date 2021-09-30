@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/*
+html class=
+.class in css
+id selectors id="blah" 
+max-width min-width max-height min-height 
+set width to 100% (website) and then a minium for phone screens 600px
+
+boarder box inclides the boarder and padding in the box size*/
+
+ * {
+	padding: 0px;
+	margin: 0px;
+	font-family: Roboto;
+	font-style: Black900;
+	background: #E5E5E5;
+    font-size: 24px;
+     }
+
+
+     header { 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    
+    a { 
+        color: black;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:darkgray
+    }
+    
+
+    a:focus {
+        color:grey
+    }
+    
+
+    h1 {
+        position: absolute;
+        width: 1207px;
+        height: 455px;
+        left: 117px;
+        top: 279px;
+        color: rgb(243, 241, 241);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 388px;
+        line-height: 455px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+
+    nav {
+        width: 100%;
+        height: 40px;
+        padding-top:10px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin:8px;
+    }
+
+    
+    nav li {
+        float: right;
+        font-size: 24px;
+        margin: 0px;
+        line-height: 60px;
+        display:inline;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+        
+
+    nav:hover {
+        color: darkgray;
+    }
+    
+
+    h2 {
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+
+    section.h3 {
+        display:inline;
+    }
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    .g {
+        font-size: 1.4em;
+        font-family: 'roboto';
+        font-weight: 900px;
+        color: black;
+        padding: 0;
+        margin: 0;
+	    background: #E5E5E5;
+    }
+    
+
+    .grid {
+        background: #E5E5E5;
+        border-radius: 0.85em;
+        margin: 45px auto;
+    }
+
+
+    .item {
+        color: #fff;
+        text-shadow: 0 2px 0 rgba(110,133,156,0.18);
+        padding: 0.85em;
+        background: #C4C4C4;
+        border: solid 1px rgba(110,133,156,0.15);
+        border-radius: 0em;
+    }
+    
+
+    hr.vertical {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 55%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v2 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v3 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 45%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v4 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 40%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v5 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 35%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v6 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 30%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v7 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 25%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v8 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 20%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v9 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 15%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v10 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 10%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v11 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 5%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v12 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 95%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v13 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 60%;
+        margin-inline: -3px;
+        top: 10;
+    }
+
+
+    .v14 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 65%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v13 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 60%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v14 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 65%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v15 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 70%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v16 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 75%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v17 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 80%;
+       
+        top: 10;
+    }
+
+
+    .v18 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 85%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .v19 {
+        border-left: 4px solid black;
+        height: 400px;
+        position: absolute;
+        left: 90%;
+        margin-left: -3px;
+        top: 10;
+    }
+
+
+    .h {
+        position: absolute;
+         width: 1443px;
+        height: 0px;
+        left: 77px;
+        top: 351px;
+        border: 1px solid black;
+    }
+
+
+    .h2 {
+        position: absolute;
+        width: 1440px;
+        height: 0px;
+        left: 77px;
+        top: 451px;
+        border: 1px solid black;
+   }
+
+
+    .h3 {
+        position: absolute;
+        width: 1440px;
+        height: 0px;
+        left: 77px;
+        top: 551px;
+        border: 1px solid black;
+    }
+
+
+    .h4 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 77px;
+    top: 651px;
+    border: 1px solid black;
+    }
+
+
+    .h5 {
+        position: absolute;
+        width: 1440px;
+        height: 0px;
+        left: 77px;
+        top: 751px;
+        border: 1px solid black;
+    }
+
+
+    .plus {
+        position:absolute;
+        width: 20px;
+        height: 9px;
+        left: 1475px;
+        top: 390px;
+    }
+
+
+.grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    box-sizing: border-box;
+    grid-column-gap: 40px;
+}
+
+.start {
+    position: absolute;
+    width: 321px;
+    height: 162px;
+    left: 46px;
+    top: 797px;
+}
+
+
+.next {
+    position: absolute;
+    width: 320px;
+    height: 41px;
+    left: 46px;
+    top: 1124px;
+}
+
+
+.breakline {
+    position: absolute;
+    width: 1640px;
+    height: 0px;
+    left: 0px;
+    top: 1040px;
+    border: 1px solid #000000;
+}
+
+
+.banner {
+    position: absolute;
+    width: 1640px;
+    height: 30px;
+    left: 0px;
+    top: 1496px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.last {
+    position: absolute;
+    width: 321px;
+    height: 268px;
+    left: 46px;
+    top: 1659px;
+}
+
+
+.next p u:hover {
+	color: darkgray;
+}
+
+
+.start p u:hover {
+	color: darkgray;
+}
+
+
+.plus p:hover {
+	color: darkgray;
+}
+
+
+.last p u:hover {
+	color: darkgray;
+}
+
+
+button:hover {
+	color: darkgray;
+}
+
+
+footer {
+	position: absolute;
+    width: 98px;
+    height: 16px;
+    left: 46px;
+    top: 1989px;
+}
